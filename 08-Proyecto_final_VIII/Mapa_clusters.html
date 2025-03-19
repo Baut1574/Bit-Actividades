@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_783739c588e6cb21c9c6935908aec004 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_783739c588e6cb21c9c6935908aec004" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_783739c588e6cb21c9c6935908aec004 = L.map(
+                "map_783739c588e6cb21c9c6935908aec004",
+                {
+                    center: [4.570868, -74.297333],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_76aa9e0031979b42c9c880c7517e0e4c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_76aa9e0031979b42c9c880c7517e0e4c.addTo(map_783739c588e6cb21c9c6935908aec004);
+        
+    
+            var circle_marker_aca695d03ca5db60e405ffdf9d7d55fc = L.circleMarker(
+                [4.6533816, -74.0836333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 81.03, "stroke": true, "weight": 3}
+            ).addTo(map_783739c588e6cb21c9c6935908aec004);
+        
+    
+        var popup_229e8ac72390f0edd4add26c0d1abee4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e6fdb26dc7c3014bca99cc326d8765e = $(`<div id="html_3e6fdb26dc7c3014bca99cc326d8765e" style="width: 100.0%; height: 100.0%;">BOGOTA - Cluster 0</div>`)[0];
+                popup_229e8ac72390f0edd4add26c0d1abee4.setContent(html_3e6fdb26dc7c3014bca99cc326d8765e);
+            
+        
+
+        circle_marker_aca695d03ca5db60e405ffdf9d7d55fc.bindPopup(popup_229e8ac72390f0edd4add26c0d1abee4)
+        ;
+
+        
+    
+    
+            var circle_marker_c18d34337d698fcbf45bbab1cc4a632e = L.circleMarker(
+                [4.97370995, -73.92117979871541],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 56.41, "stroke": true, "weight": 3}
+            ).addTo(map_783739c588e6cb21c9c6935908aec004);
+        
+    
+        var popup_148216509977bcc4c4f6f7365801cb3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20ea652a7904be97c84b9b796917fe2f = $(`<div id="html_20ea652a7904be97c84b9b796917fe2f" style="width: 100.0%; height: 100.0%;">TOCANCIPA - Cluster 3</div>`)[0];
+                popup_148216509977bcc4c4f6f7365801cb3e.setContent(html_20ea652a7904be97c84b9b796917fe2f);
+            
+        
+
+        circle_marker_c18d34337d698fcbf45bbab1cc4a632e.bindPopup(popup_148216509977bcc4c4f6f7365801cb3e)
+        ;
+
+        
+    
+    
+            var circle_marker_c2a6d8b517e4fe9139f156da4114b356 = L.circleMarker(
+                [4.7177471, -74.2031547],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.84, "stroke": true, "weight": 3}
+            ).addTo(map_783739c588e6cb21c9c6935908aec004);
+        
+    
+        var popup_9901e9d88543a1abe0b6035043bc8753 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4079a0fef2a3b9708479003dbd94d923 = $(`<div id="html_4079a0fef2a3b9708479003dbd94d923" style="width: 100.0%; height: 100.0%;">FUNZA - Cluster 0</div>`)[0];
+                popup_9901e9d88543a1abe0b6035043bc8753.setContent(html_4079a0fef2a3b9708479003dbd94d923);
+            
+        
+
+        circle_marker_c2a6d8b517e4fe9139f156da4114b356.bindPopup(popup_9901e9d88543a1abe0b6035043bc8753)
+        ;
+
+        
+    
+    
+            var circle_marker_bd56712c8ed413ef8acae79da55aa0f3 = L.circleMarker(
+                [6.1536166, -75.3741691],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.0, "stroke": true, "weight": 3}
+            ).addTo(map_783739c588e6cb21c9c6935908aec004);
+        
+    
+        var popup_9027357d9341a8267001eea985dcadf7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d002ea6c56c1ba270d8ea33bb27efc19 = $(`<div id="html_d002ea6c56c1ba270d8ea33bb27efc19" style="width: 100.0%; height: 100.0%;">RIONEGRO - Cluster 1</div>`)[0];
+                popup_9027357d9341a8267001eea985dcadf7.setContent(html_d002ea6c56c1ba270d8ea33bb27efc19);
+            
+        
+
+        circle_marker_bd56712c8ed413ef8acae79da55aa0f3.bindPopup(popup_9027357d9341a8267001eea985dcadf7)
+        ;
+
+        
+    
+    
+            var circle_marker_23560ad2cc48c8edbc001ff46cfd10f5 = L.circleMarker(
+                [4.8093624, -74.1015739],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.92, "stroke": true, "weight": 3}
+            ).addTo(map_783739c588e6cb21c9c6935908aec004);
+        
+    
+        var popup_37ca7ead5a6f21514538b75fbd095e03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9d7cfc889bdddeb97ec6755e48983db = $(`<div id="html_f9d7cfc889bdddeb97ec6755e48983db" style="width: 100.0%; height: 100.0%;">COTA - Cluster 0</div>`)[0];
+                popup_37ca7ead5a6f21514538b75fbd095e03.setContent(html_f9d7cfc889bdddeb97ec6755e48983db);
+            
+        
+
+        circle_marker_23560ad2cc48c8edbc001ff46cfd10f5.bindPopup(popup_37ca7ead5a6f21514538b75fbd095e03)
+        ;
+
+        
+    
+    
+            var circle_marker_048004f188906a0ac3e1193e454f01d0 = L.circleMarker(
+                [4.4386033, -75.2108857],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.27, "stroke": true, "weight": 3}
+            ).addTo(map_783739c588e6cb21c9c6935908aec004);
+        
+    
+        var popup_518448ac00e91d116be833e21bea0b52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c4b08b76de8a01c5effc93962095556 = $(`<div id="html_7c4b08b76de8a01c5effc93962095556" style="width: 100.0%; height: 100.0%;">IBAGUE - Cluster 2</div>`)[0];
+                popup_518448ac00e91d116be833e21bea0b52.setContent(html_7c4b08b76de8a01c5effc93962095556);
+            
+        
+
+        circle_marker_048004f188906a0ac3e1193e454f01d0.bindPopup(popup_518448ac00e91d116be833e21bea0b52)
+        ;
+
+        
+    
+    
+            var circle_marker_364e69b950efa8faf0d4185238ffefb4 = L.circleMarker(
+                [5.0234748, -74.0039818],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.19, "stroke": true, "weight": 3}
+            ).addTo(map_783739c588e6cb21c9c6935908aec004);
+        
+    
+        var popup_a7c35846298b4ecff9d01daf60d03591 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2eaebefea0ea5084df1d4b6fd7011768 = $(`<div id="html_2eaebefea0ea5084df1d4b6fd7011768" style="width: 100.0%; height: 100.0%;">ZIPAQUIRA - Cluster 3</div>`)[0];
+                popup_a7c35846298b4ecff9d01daf60d03591.setContent(html_2eaebefea0ea5084df1d4b6fd7011768);
+            
+        
+
+        circle_marker_364e69b950efa8faf0d4185238ffefb4.bindPopup(popup_a7c35846298b4ecff9d01daf60d03591)
+        ;
+
+        
+    
+</script>
+</html>
